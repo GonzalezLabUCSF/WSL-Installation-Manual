@@ -23,5 +23,17 @@ Inorder to verify if the CUDA is properly installed
 
 * Open Command Line Windows(CMD) and type
   
-![Data](img/nvidia)
+![Data](img/nvidia.png)
 
+To check CUDA
+
+```
+nvcc -V
+```
+![Data](img/nvcc.png)
+
+## Run CUDA Toolkit network installer
+
+Make sure to select custom only CUDA runtime option
+
+![Data](img/nvcc.png)
