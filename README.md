@@ -24,3 +24,4 @@ Inorder to verify if the CUDA is properly installed
 * Open Command Line Windows(CMD) and type
   
 ![Data](imgs/nvidia)
+![Alt text](imgs/nvidia)
