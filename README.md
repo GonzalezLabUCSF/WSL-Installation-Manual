@@ -48,7 +48,7 @@ Continue to select Runtime, Documentation and Development from the submenu
 
 ![Data](img/cuda_runtime.png)
 
-Also select Nsight VSE, Visual Studio Integration,Nsight Systmens and Nsight Compute from the submenus as shown below.
+After the installer is done with installation. Open the installer again and select the remaining packages. Including Nsight VSE, Visual Studio Integration,Nsight Systmens and Nsight Compute from the submenus as shown below.
 
 ![Data](img/cuda_nsight.png)
 
