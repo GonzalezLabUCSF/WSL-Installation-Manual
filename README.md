@@ -16,25 +16,7 @@ Download the latest CUDA toolkit that's compatable to your device.
 
 [Download CUDA here](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_network)
 
-## Check the CUDA verison
-  
-To check NVIDIA Drivers are properly installed
-* Open Command Line Windows(CMD) and type
 
-```
-nvdia-smi
-```
-
-* Open Command Line Windows(CMD) and type
-  
-![Data](img/nvidia.png)
-
-To check NVIDIA CUDA compiler (cudnn)
-
-```
-nvcc -V
-```
-![Data](img/nvcc.png)
 
 ## Run CUDA Toolkit network installer
 
@@ -63,6 +45,28 @@ Once done with the download install cuDNN in Express (Recommended) mode.
 After all the installations are finished, you can see the cudNN library version and status for each installs.
 
 ![Data](img/nvidia_installer.png).
+
+## Check the CUDA drivers and toolkit
+  
+To check NVIDIA Drivers are properly installed
+* Open Command Line Windows(CMD) and type
+
+```
+nvdia-smi
+```
+
+* Open Command Line Windows(CMD) and type
+  
+![Data](img/nvidia.png)
+
+To check NVIDIA CUDA compiler (cudnn)
+
+```
+nvcc -V
+```
+![Data](img/nvcc.png)
+
+If running these comands does not output somthing similar to the pictures show, then the installation did not succeed. You will need to uninstall all NVIDIA drivers and packages, restart your computer and try again.
 
 ## Install Ubuntu in WSL2
 
