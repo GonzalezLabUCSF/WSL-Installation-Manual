@@ -17,9 +17,6 @@ Download the latest CUDA toolkit that's compatable to your device.
 [Download CUDA here](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_network)
 
 ## Check the CUDA verison
-
-Inorder to verify if the CUDA is properly installed
-* Open Command Line Windows(CMD) and type
   
 To check NVIDIA Drivers are properly installed
 * Open Command Line Windows(CMD) and type
