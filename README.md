@@ -19,13 +19,20 @@ Download the latest CUDA toolkit that's compatable to your device.
 ## Check the CUDA verison
 
 Inorder to verify if the CUDA is properly installed
+* Open Command Line Windows(CMD) and type
+  
+To check NVIDIA Drivers are properly installed
+* Open Command Line Windows(CMD) and type
 
+```
+nvdia-smi
+```
 
 * Open Command Line Windows(CMD) and type
   
 ![Data](img/nvidia.png)
 
-To check CUDA
+To check NVIDIA CUDA compiler (cudnn)
 
 ```
 nvcc -V
